@@ -9,6 +9,8 @@ Quick Charts is a simple web app that generates data visualizations from flat fi
 
 - Chart Options: Users can select from a variety of chart types to visualize their data.
 
+For now, it is Windows only until I add Linux support.
+
 ## Build System
 Quick Charts uses a custom build system based on a Makefile. The Makefile automates the following tasks:
 
@@ -28,6 +30,12 @@ To build the project, simply run the ` make ` command (or ` mingw32-make ` on Wi
 5. Use the file upload interface to select a CSV file.
 6. The app will generate a bar chart visualization based on the uploaded data.
 7. Explore different chart types by selecting them from the available options.
+
+## Dev Tools
+
+` mingw32-make install-deps `: install project dependencies, if needed (chart.js with types)
+
+` mingw32-make install-typescript `: install typescript globally, if needed
 
 ## Dependencies
 Quick Charts relies on the following dependencies:
