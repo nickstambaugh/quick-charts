@@ -1,6 +1,6 @@
 # Quick Charts 
 
-Quick Charts is a simple web app that generates data visualizations from flat files. With the philosophy of being minimalistic, Quick Charts is created on top of a custom build system that handles the following tasks:
+Quick Charts is a simple web app that generates data visualizations from flat files. With the philosophy of being minimalistic and for developer usage only, Quick Charts is created on top of a custom build system that handles the following tasks:
 
 ## Features
 - File Upload: The app provides a dedicated file upload state that allows users to upload flat data files.
