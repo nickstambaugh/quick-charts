@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "es2015",
+      "strict": true,
+      "esModuleInterop": true,
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "baseUrl": ".",
+      "paths": {
+        "chart.js/*": ["node_modules/chart.js/*"]
+      }
+    },
+    "include": ["src"]
+  }
