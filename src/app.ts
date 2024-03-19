@@ -41,24 +41,39 @@ function processData(csvData: string): { labels: string[], data: number[] } {
 }
 
 function renderChart(data: { labels: string[], data: number[] }) {
-  new Chart(chartCanvas, {
-    type: 'bar',
-    data: {
-      labels: data.labels,
-      datasets: [{
-        label: 'Data',
-        data: data.data,
-        backgroundColor: 'rgba(54, 162, 235, 0.6)',
-        borderColor: 'rgba(54, 162, 235, 1)',
-        borderWidth: 1
-      }]
-    },
-    options: {
-      scales: {
-        y: {
-          beginAtZero: true
-        }
+    new Chart(chartCanvas, {
+      type: 'bar',
+      data: {
+        labels: data.labels,
+        datasets: [{
+          label: 'Data',
+          data: data.data,
+          backgroundColor: 'rgba(54, 162, 235, 0.6)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        indexAxis: 'y', // Rotate chart to use y-axis for categories
+        scales: {
+          y: {
+            beginAtZero: true,
+            grid: {
+              display: false // Hide grid lines
+            }
+          }
+        },
+        plugins: {
+          legend: {
+            display: false // Hide legend
+          }
+        },
+        layout: {
+          padding: 20 // Add padding
+        },// Ensure chart maintains a square aspect ratio
+        responsive: true, // Allow chart to be responsive
+        maintainAspectRatio: false, 
       }
-    }
-  });
-}
+    });
+  }
+  
