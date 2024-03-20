@@ -55,5 +55,5 @@ Quick Charts relies on the following dependencies:
 
 - TypeScript: For writing the application logic.
 - Chart.js: A popular charting library for creating data visualizations.
-These dependencies are automatically installed when you build the project using the provided Makefile.
+These dependencies are automatically installed through the makefile if you need them.
 
