@@ -15,7 +15,7 @@ $(DIST_DIR)/app.js: $(SRC_DIR)/app.ts
 	tsc --project . --module es2015
 
 clean:
-	rm -rf $(DIST_DIR)
+	@if exist $(DIST_DIR) rmdir /s /q $(DIST_DIR)
 
 install-deps:
 	npm install chart.js @types/chart.js --save
