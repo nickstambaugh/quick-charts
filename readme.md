@@ -4,9 +4,9 @@ Quick Charts is a simple web app that generates data visualizations from flat fi
 
 Quick Charts will initially look to complete the following: 
 - Follow a philosophy of being minimalistic, building only what is needed when it is needed. 
-- Be a proof-of-concept against javascript frameworks 
-- For developer/local usage only,
-- Allow me to theorize a custom build system
+- Be a proof-of-concept against bloated frameworks.
+- For developer/local usage only.
+- Allow me to theorize a build system for data visualization.
 
 Quick Charts is created on top of a custom build system that handles the following tasks:
 
