@@ -97,7 +97,8 @@ function renderChart(data: { labels: string[], data: number[] }) {
         },
         layout: {
           padding: 20 // Add padding
-        },// Ensure chart maintains a square aspect ratio
+        },
+        aspectRatio: 1,// Ensure chart maintains a square aspect ratio
         responsive: true, // Allow chart to be responsive
         maintainAspectRatio: false, 
       }

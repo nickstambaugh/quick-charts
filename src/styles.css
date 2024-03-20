@@ -27,10 +27,10 @@ body, html {
     overflow: hidden;
 }
 
-#chart-canvas canvas {
+/* #chart-canvas canvas {
     border: 2px solid #fff;
     border-radius: 10px;
     background-color: #ffffff;
     width: 100%;
     height: 100%;
-}
+} */
