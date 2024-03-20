@@ -2,6 +2,33 @@ const fileInput = document.getElementById('file-input') as HTMLInputElement;
 const uploadState = document.getElementById('upload-state');
 const chartState = document.getElementById('chart-state');
 const chartCanvas = document.getElementById('chart-canvas') as HTMLCanvasElement;
+const colorInput = document.getElementById('color-input') as HTMLInputElement;
+const exportButton = document.getElementById('export-button');
+
+if (colorInput && exportButton) {
+   colorInput.addEventListener('input', handleColorChange);
+    exportButton.addEventListener('click', exportChartImage);
+}
+
+function handleColorChange(event: Event) {
+    const color = (event.target as HTMLInputElement).value;
+    updateChartColor(color);
+}
+
+function updateChartColor(color: string) {
+    // Update chart dataset color
+    chart.data.datasets[0].backgroundColor = color;
+    chart.update();
+}
+
+function exportChartImage() {
+    const canvas = chartCanvas as HTMLCanvasElement;
+    const dataURL = canvas.toDataURL('image/png');
+    const link = document.createElement('a');
+    link.href = dataURL;
+    link.download = 'chart.png';
+    link.click();
+}
 
 if (uploadState && chartState) {
   fileInput.addEventListener('change', handleFileUpload);
