@@ -1,4 +1,6 @@
-# Quick Charts 
+![image](https://github.com/nickstambaugh/quick-charts/assets/73977662/968692ee-0fca-4d8b-b13f-74071c9e1b1c)
+
+
 
 ![](https://github.com/nickstambaugh/quick-charts/blob/main/assets/3-19.gif)
 
