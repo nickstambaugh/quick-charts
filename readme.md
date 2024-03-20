@@ -1,5 +1,7 @@
 # Quick Charts 
 
+![](https://github.com/nickstambaugh/quick-charts/blob/main/assets/3-19.gif)
+
 Quick Charts is a simple web app that generates data visualizations from flat files. 
 
 Quick Charts will initially look to complete the following: 
