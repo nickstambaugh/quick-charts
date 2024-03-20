@@ -1,6 +1,8 @@
 ![image](https://github.com/nickstambaugh/quick-charts/assets/73977662/968692ee-0fca-4d8b-b13f-74071c9e1b1c)
 
-Quick Charts is a simple web app that generates data visualizations from flat files. 
+Quick Charts is a simple web app that generates data visualizations from flat files.
+
+Build on any system, serve URLs for your next web project, or add to an existing local project. The power is in the developer's hands. 
 
 Quick Charts will initially look to complete the following: 
 - Follow a philosophy of being minimalistic, building only what is needed when it is needed. 
