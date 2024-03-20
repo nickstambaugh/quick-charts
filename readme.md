@@ -1,9 +1,5 @@
 ![image](https://github.com/nickstambaugh/quick-charts/assets/73977662/968692ee-0fca-4d8b-b13f-74071c9e1b1c)
 
-
-
-![](https://github.com/nickstambaugh/quick-charts/blob/main/assets/3-19.gif)
-
 Quick Charts is a simple web app that generates data visualizations from flat files. 
 
 Quick Charts will initially look to complete the following: 
@@ -11,6 +7,9 @@ Quick Charts will initially look to complete the following:
 - Be a proof-of-concept against bloated frameworks.
 - For developer/local usage only.
 - Allow me to theorize a build system for data visualization.
+
+# Demo
+![](https://github.com/nickstambaugh/quick-charts/blob/main/assets/3-19.gif)
 
 Quick Charts is created on top of a custom build system that handles the following tasks:
 
